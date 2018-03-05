@@ -1,4 +1,37 @@
 body{
     font-family: "avenir";
-background-color: beige;
+background-color: black;
+width: 1400px; 
+color: yellow;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 300px; 
+    justify-content: space-between;
+}
+.bio{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.foto img{
+    width: 200px;
+    height: auto;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    background-color: yellow;
+    color: black;
+    padding: 0px 10px 0px 10px;
+}
+
+.opsomming{
+    color: yellow;
+    list-style: none;
 }
