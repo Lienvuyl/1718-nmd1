@@ -8,17 +8,22 @@ color: yellow;
 .info {
     display: flex;
     flex-direction: row;
-    width: 300px; 
+    width: 900px; 
     justify-content: space-between;
+    margin: auto;
 }
 .bio{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+width: 300px;
 }
 .foto img{
-    width: 200px;
+    width: 400px;
     height: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+    justify-content: center;
 }
 #header{
     display: flex;
@@ -28,10 +33,8 @@ justify-content: space-between;
 .title{
     background-color: yellow;
     color: black;
-    padding: 0px 10px 0px 10px;
-}
-
-.opsomming{
-    color: yellow;
-    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
